@@ -8,9 +8,12 @@ void setup() {
 void loop() {
     Serial.println("Relay ON");
     digitalWrite(RELAY_ENABLE, LOW);
-    delay(1000);
+    delay(1800000);
 
     Serial.println("Relay OFF");
     digitalWrite(RELAY_ENABLE, HIGH);
-    delay (1000);
+    delay (1800000);
 }
+
+
+// ventil za zrak koji se pali i gasi svakih pola sata
